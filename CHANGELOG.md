@@ -5,25 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [3.0.2] - 2016-10-17
+## [3.1.1] - 2019-05-22
 
-### Added
+### Security
 
-- Accessibility
-  - :focus effects
-  - ARIA rules for accessibility
-- GoogleOff/GoogleOn tags for all content inside the banner. This prevents Google registering CookieConsent text as site content.
+- Updated all dependencies to latest stable releases
 
-## [3.0.1] - 2016-09-21
+### Fixed
 
-### Added
+- Expiration date future calculation error
+- Closing with touch out did not work when cookie consent was displayed on iPhone Safari and dismissOnWindowClick is enabled
 
-- Changelog
-- Application written to support:
-  - geolocation
-  - callback hooks
-  - different consent types
-  - new and easy to customise stylings
+### Random
+
+- Insite branding and domains replaced with Osano branding and domains
 
 ## [3.1.0] - 2018-07-17
 
@@ -49,3 +44,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Deprecated
 
 - Removed deprecated FreeGeoIP
+
+## [3.0.2] - 2016-10-17
+
+### Added
+
+- Accessibility
+  - :focus effects
+  - ARIA rules for accessibility
+- GoogleOff/GoogleOn tags for all content inside the banner. This prevents Google registering CookieConsent text as site content.
+
+## [3.0.1] - 2016-09-21
+
+### Added
+
+- Changelog
+- Application written to support:
+  - geolocation
+  - callback hooks
+  - different consent types
+  - new and easy to customise stylings
